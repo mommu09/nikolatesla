@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: large;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    border-radius:0px 20px;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.home{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+    font-size: xx-large;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+}
+.home h2{
+    font-size: 100px;
+}
+#about{
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+}
+#about p{
+    font-size: large;
+    width: 50%;
+}
+#invention{
+    display: flex;
+    flex-direction: column;
+    height: 790px;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.invention-sec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.image-inv p{
+    text-align: center;
+    margin: 20px 0;
+}
+ img{
+    border-radius: 20px;
+}
+#patents{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    height: 400px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.patent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.patent h2{
+    margin-top: 20px;
+}
+.patcont{
+    width: 20vw;
+    margin-top: 30px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+.patcont p{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.patcont p a{
+    text-decoration: none;
+    color: wheat;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+section{
+    border-bottom: 2px solid whitesmoke;
+}
+nav a:hover{
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    border-radius: 20px 0px;
+}
+
