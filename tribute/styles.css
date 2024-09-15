@@ -1,0 +1,28 @@
+body{
+    background-color: #e0fbfc;
+}
+#main{
+    background-color: #98c1d9;
+    margin-top: 30px;
+    text-align: center;
+}
+#img-div{
+    text-align: center;
+    background-color: #e0fbfc;
+    padding: 40px;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    margin: 0px auto;
+}
+section{
+    padding: 40px;
+}
+figcaption{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #e0fbfc;
+}

@@ -1,12 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+
 }
 .header{
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
 }
 nav a{
     text-decoration: none;
@@ -16,18 +21,20 @@ nav a{
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
     border-radius:0px 20px;
+    transition: all 0.5s;
 }
 .header nav {
     display: flex;
     justify-content: space-between;
   }
 
+
 .home{
-    height: 750px;
-    width: 100%;
+    height: fit-content;
+    padding: 50px 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
     align-items: center;
     font-size: xx-large;
     background-color: rgb(39, 39, 39);
@@ -36,13 +43,22 @@ nav a{
 .home h2{
     font-size: 100px;
 }
+.home img{
+    min-width: 300px;
+    max-width: 400px;
+    object-fit: cover;
+}
 #about{
-    height: 400px;
+    padding: 50px 20px;
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+#about h2{
+    width: 400px;
 }
 h2{
     font-size: xx-large;
@@ -50,15 +66,16 @@ h2{
 }
 #about p{
     font-size: large;
-    width: 50%;
+    width: max(300px,600px);
 }
 #invention{
     display: flex;
     flex-direction: column;
-    height: 790px;
+    padding: 50px 20px;
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: large;
 }
@@ -72,31 +89,35 @@ h2{
     text-align: center;
     margin: 20px 0;
 }
- img{
+.image-inv img{
     border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
 }
 #patents{
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
-    height: 400px;
+    padding: 50px 20px;
     align-content: center;
     justify-content: space-evenly;
 }
 .patent{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-evenly;
 }
 .patent h2{
     margin-top: 20px;
 }
 .patcont{
-    width: 20vw;
+    flex:0.5 1 200px;
     margin-top: 30px;
     border: 2px solid wheat;
     border-radius: 10px;
+    padding: 10px;
 }
 .patcont p{
     text-align: center;
@@ -115,8 +136,8 @@ section{
     border-bottom: 2px solid whitesmoke;
 }
 nav a:hover{
-    background-color: rgb(39, 39, 39);
-    color: whitesmoke;
+    background-color: #ffc700;
+    color: black;
     border-radius: 20px 0px;
 }
 
